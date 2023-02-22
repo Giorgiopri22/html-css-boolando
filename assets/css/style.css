@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**utility**/
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.sost{
+    background-color: green;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.red{
+    color:red;
+}
+
+.cuore{
+    top: 10px;
+    right: 0;
+    padding:10px;
+    font-size: 30px;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+.etichetta{
+    bottom: 20px;
+    left: 0;
+    padding: 10px;
+    z-index: 100;
+}
+
+header{
+    background-color: orange;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 10px; 
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card{
+    width: 30%;
+    margin: 20px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(87, 85, 85);
+    padding: 15px;
+}
+
+.social{
+    margin-top: 10px;
+}
